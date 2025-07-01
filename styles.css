@@ -1,0 +1,67 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Helvetica', sans-serif;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 400px;
+  margin: auto;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #ffa07a; /* naranja pastel */
+}
+
+h1 {
+  margin: 20px 0 10px;
+  font-size: 28px;
+}
+
+.bio {
+  margin-bottom: 30px;
+  font-size: 16px;
+  color: #ccc;
+}
+
+.link-block {
+  margin-bottom: 25px;
+}
+
+.handle {
+  margin: 0;
+  font-size: 15px;
+  color: #87cefa; /* azul pastel */
+}
+
+.link-btn {
+  display: inline-block;
+  background: #87cefa; /* azul pastel */
+  color: #000;
+  text-decoration: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-top: 8px;
+  transition: background 0.3s;
+}
+
+.link-btn:hover {
+  background: #ffa07a; /* naranja pastel al pasar */
+}
+
+footer {
+  margin-top: 40px;
+}
+
+.logo {
+  width: 50px;
+  opacity: 0.7;
+}
+
